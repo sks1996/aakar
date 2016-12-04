@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "942711710834",
+    "firebase_url": "https://aakar-ee4be.firebaseio.com",
+    "project_id": "aakar-ee4be",
+    "storage_bucket": "aakar-ee4be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942711710834:android:355b2461c05db17f",
+        "android_client_info": {
+          "package_name": "com.example.a1405264.aakar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942711710834-907mgfp2mm9poeblmera2brnbs4p45ka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a1405264.aakar",
+            "certificate_hash": "AEE6BE344D386A8CA02F6FD1A8D63A9EE08A1003"
+          }
+        },
+        {
+          "client_id": "942711710834-mku599vva08lrfq5k0boj2nv5hi1cv0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfzSY8iLYmxGAn1OICnB5BlZLzk20rlvc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942711710834-mku599vva08lrfq5k0boj2nv5hi1cv0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

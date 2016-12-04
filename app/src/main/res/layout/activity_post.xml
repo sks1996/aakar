@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.a1405264.aakar.PostActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="240sp"
+        android:background="#00ffffff"
+        android:id="@+id/imageView"
+        android:adjustViewBounds="true"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Post Title.."
+        android:background="@drawable/input_outline"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:background="@drawable/input_outline"
+        android:layout_marginTop="25dp"
+        android:padding="15dp"
+        android:layout_below="@+id/editText"
+        android:id="@+id/editText2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:id="@+id/button3"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/editText2"/>
+
+</RelativeLayout>
